@@ -16,5 +16,14 @@ public class Student {
 	public static Integer getNumStudents() {
 		return numStudents;
 	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
 }
 
