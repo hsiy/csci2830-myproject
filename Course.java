@@ -15,6 +15,7 @@ public class Course {
 		this.classSize = 0;
     }
 	
+
 	public void addStudent(Student s) {
 		students.add(s);
 		classSize++;
@@ -26,6 +27,10 @@ public class Course {
 	
 	public String getName() {
 		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	public Integer getClassSize() {

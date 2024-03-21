@@ -6,6 +6,7 @@ public class Main {
 		Course c;
 
 		c = new Course(0, "CSCI 2830", "OO Software Engineering Fundamentals");
+		c.setName("OO SE Fundamentals");
         for(Integer i = 0; i < 10; i++) {
             Student s = new Student(i,"Student"+i.toString());
 			c.addStudent(s);
